@@ -1,0 +1,9 @@
+version: '1'
+services:
+  classifier:
+    image: dia:0.1
+    volumes:
+      - path/to/your/file.txt:/var/data.txt
+    environment:
+      FILE: /var/data.txt
+      SPECTRUM: "SPECTRUM OF STONE"
